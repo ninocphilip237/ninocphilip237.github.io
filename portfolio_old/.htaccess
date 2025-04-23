@@ -1,6 +1,0 @@
-Options +FollowSymLinks -MultiViews
-# Turn mod_rewrite on
-RewriteEngine On
-RewriteBase /
-
-RewriteRule ^./download1\.php/([0-9]+)/?$ ./download.php?vp=$1 [L,QSA,NC]
